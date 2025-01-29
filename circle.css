@@ -25,14 +25,18 @@ font-size:30px;
     
 body {
     cursor: url('images/cursor.cur'), default;
+
     
+}
+
+h1 {
+
 }
     
     
 .outer {
     height: 100vh;
     width: 100vw;
-    background-color: white;
 }
 
 .inner {
@@ -48,7 +52,7 @@ body {
 
 }
 
-.text {
+.blinky {
     animation: blink-animation 1s steps(5,start) infinite;
 }
 
