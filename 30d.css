@@ -79,6 +79,12 @@ body {
     right: 0;
 }
 
+.head_speaking {
+    position: relative;
+    height:90%;
+    right: 0;
+}
+
 a {
     color:blue;
     text-decoration: none;
@@ -86,6 +92,7 @@ a {
 
 p {
     font-size: 18pt;
+    line-height: 1.75;
 }
 
 a:link{
@@ -96,10 +103,30 @@ a:hover {
     text-decoration:underline;
 }
 
-summary {
-    color:blue;
+ details > summary {
+
+   list-style: none;
+
+ }
+
+ details > summary::-webkit-details-marker {
+
+   display: none;
+
+ }
+
+ summary:hover {
+     text-decoration:underline;
 }
 
+summary {
+    color:blue;
+    font-size: 18pt;
+}
+
+details {
+    font-size: 16pt;
+}
 /* animations */
 
 .blinky {
