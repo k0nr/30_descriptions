@@ -32,7 +32,7 @@ body {
     
     
 .outer {
-    height: 98vh;
+    /* height: 98vh; */
     width: 98vw;
     background-color: white;
     cursor: url('images/cursor.cur'), default;
@@ -75,8 +75,8 @@ body {
 
 .smallhead {
     position: relative;
-    width: 40%;
-    left: 60%;
+    height: 45%;
+    right: 0;
 }
 
 a {
